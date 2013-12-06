@@ -1,41 +1,66 @@
 .main_photo {
   width: 100%;
-  height: 400px;
-  background: url(http://www.tacomanarrowsbridge.org/zassorted29.jpg);
+  height: 500px;
+  background: url(./images/IMG_3148.jpg);
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.bottom_photo {
+  width: 100%;
+  height: 530px;
+  background: url(./images/IMG_front_door_angle.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 body {
   background-image: url(./images/white_bed_sheet.png);
 }
 
-.trans_box, h2, h1  {
-  font-family: Times New Roman;
-}
-
-.photofilter {
-  width: 100%;
-  height: 400px;
-  background: rgba(130,130,130, 0);
-  background-attachment: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
+.trans_box, h2, h1, h3  {
+  font-family: 'Cardo';
 }
 
 .trans_box {
-  /*background: rgba(130,130,135, 0.7);*/
-  margin-top: 50px;
-  padding: 10px;
-  font-size: 60px;
-  font-variant: small-caps;
-  text-decoration: underline;
-  border-radius: 5px;
+  color: white;
 }
 
+/*.photofilter {
+  width: 100%;
+  height: 400px;
+  background: rgba(130,130,130, 0.5);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}*/
+
+.trans_box {
+  background: rgba(21,24,22, 0.8);
+  width: 30%;
+  height: 230px;
+  margin-top: 40px;
+  padding-left: 20px;
+  font-size: 380%;
+  font-variant: small-caps;
+  /*text-decoration: underline;*/
+  border-radius: 0px;
+}
+
+/*.trans_header {
+  background: rgba(21,24,22, 0.8);
+  width: 43%;
+  height: 50px;
+  padding: 10px;
+  color: white;
+}*/
+
 .tag_line {
-  text-align: center;
+  text-align: left;
+  padding-left: 15px;
   border-bottom: 3px solid gray;
 }
 
@@ -46,20 +71,23 @@ body {
 
 .contact {
   width: 100%;
-  height: 450px;
-  background-color: gray;
-  /*background-image: url(./images/mooning.png);*/
-  padding-top: 120px;
+  height: 500px;
+  background-color: rgb(21,24,22);
+  /*background-image: url(./images/dark_wall_@2X.png);*/
+  padding-top: 20px;
+  color: white;
+  font-family: Oxygen;
 }
 
-.l/*ogo {
-  width: 30px;
-  height: 30px;
-  float: right;
-  padding: 100px;
-  background-image: url(./images/WSBAlogoCircleRGBsm.jpeg);
+.logo {
+  width: 200px;
+  height: 120px;
+  /*float: right;*/
+  /*padding: 40px;*/
+  background-image: url(./images/logo.png);
   background-repeat: no-repeat;
-}*/
+  background-size: 120px 120px;
+}
 
 table {
   font-size: 16px;
@@ -67,7 +95,7 @@ table {
 }
 
 .contact h1 {
-  /*color: white;*/
+  color: white;
 }
 
 .lbl {
@@ -85,7 +113,8 @@ p {
 
 a {
   text-decoration: none;
-  color: #333333;
+  /*color: #333333;*/
+  color: white;
 }
 
 a:hover {

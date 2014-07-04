@@ -11,7 +11,7 @@
   width: 100%;
   /*min-height: 550px;*/
   height: 500px;
-  background: url(https://lh5.googleusercontent.com/-gHGu39W6hmc/UqjubOS7lUI/AAAAAAAAF50/wf1o4cX2ts4/w1118-h447-no/IMG_front_door_angle.jpg);
+  background: url(https://lh6.googleusercontent.com/-gHGu39W6hmc/UqjubOS7lUI/AAAAAAAAF7A/zRu1Aca5XB0/w1074-h430-no/IMG_front_door_angle.jpg);
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
@@ -53,9 +53,9 @@ body {
 
 .contact {
   width: 100%;
-  min-height: 600px;
-  max-height: 600px;
+  height: 600px;
   background-color: rgb(21,24,22);
+  /*background-position: absolute;*/
   padding-top: 20px;
   color: white;
   font-family: Oxygen;

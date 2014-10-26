@@ -7,13 +7,6 @@
   background-repeat: no-repeat;
 }
 
-// .bottom_photo {
-//   width: 100%;
-//   height: 700px;
-//   background-attachment: fixed;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
 
 .copy_section {
   width: 100%;
@@ -26,6 +19,10 @@
   font-family: 'Cardo';
 }
 
+h1 {
+  font-size: 54px;
+  line-height: 1.4;
+}
 
 .trans_box {
   color: white;
@@ -111,7 +108,7 @@ table {
 }
 
 .lbl {
-  font-weight: bold;
+  font-weight: 400;
   vertical-align: top;
 }
 
@@ -153,17 +150,48 @@ footer {
 
 @media screen and (max-width: 1200px) {
   .main_photo {
-    background-size: cover;
-    background-position: center;
+    background-size: 125%;
+    background-position: top;
 
   }
   .copy {
     padding-top: 50px;
   }
+  #notice_break {
+    display: none;
+  }
 }
 
+@media screen and (max-width: 900px) {
+  .main_photo {
+    background-size: 100%;
+    background-position: top;
+    height: 300px;
+  }
+  .trans_box {
+    margin-top: 50px;
+  }
+}
 
-
+@media screen and (max-width: 700px) {
+  .main_photo {
+    background-size: 130%;
+    height: 30%;
+  }
+  .trans_box {
+    width: 200px;
+    height: 153px;
+    margin-top: 10px;
+    h1 {
+      font-size: 36px
+    }
+  }
+  .copy {
+    p {
+      font-size: 20px;
+    }
+  }
+}
 
 
 

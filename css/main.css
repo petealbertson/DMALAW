@@ -1,3 +1,18 @@
+body {
+  background-color: #E5EBEA;
+}
+
+.thank-you {
+  margin-top: 20%;
+  text-align: center;
+}
+.thank-you h2 {
+  font-size: 40px;
+}
+.thank-you .address {
+  margin-top: 200px;
+}
+
 .main_photo {
   width: 100%;
   height: 500px;
@@ -7,15 +22,12 @@
   background-repeat: no-repeat;
 }
 
-
 .copy_section {
   width: 100%;
   background-image: url(https://lh6.googleusercontent.com/-1La-RANZ3FU/UqjuciWi1WI/AAAAAAAAF5w/ZHD3gpdBj5c/s54-no/white_bed_sheet.png);
 }
 
-
-
-.trans_box, h2, h1, h3  {
+.trans_box, h2, h1, h3 {
   font-family: 'Cardo';
 }
 
@@ -26,7 +38,7 @@ h1 {
 
 .trans_box {
   color: white;
-  background: rgba(21,24,22, 0.8);
+  background: rgba(21, 24, 22, 0.8);
   width: 300px;
   height: 230px;
   margin-top: 80px;
@@ -35,7 +47,6 @@ h1 {
   font-variant: small-caps;
   border-radius: 0px;
 }
-
 
 .tag_line {
   text-align: left;
@@ -53,11 +64,12 @@ h1 {
   text-align: center;
   border-top: 3px solid gray;
   padding-top: 50px;
-  p {
-    font-family: 'Cardo';
-    font-size: 26px;
-  }
 }
+.notice p {
+  font-family: 'Cardo';
+  font-size: 26px;
+}
+
 .contact_cover {
   position: absolute;
   background-image: url(https://dl.dropboxusercontent.com/u/379793/IMG_3135.jpg);
@@ -72,13 +84,15 @@ h1 {
   -ms-filter: blur(1px);
   filter: blur(1px);
 }
+
 .contact_bg {
   width: 100%;
   height: 700px;
-  background: rgba(21,24,22, 0.8);
+  background: rgba(21, 24, 22, 0.8);
   position: absolute;
   z-index: -1;
 }
+
 .contact {
   width: 100%;
   height: 700px;
@@ -88,10 +102,10 @@ h1 {
   font-family: 'Helvetica Neue';
   font-weight: lighter;
   z-index: 100;
-  h1 {
-    color: white;
-    padding-left: 10px;
-  }
+}
+.contact h1 {
+  color: white;
+  padding-left: 10px;
 }
 
 .logo {
@@ -138,69 +152,56 @@ footer {
   bottom: 0px;
   font-size: 12px;
   color: gray;
-  // height: 120px;
-  p {
-    bottom: 0;
-    position: absolute;
-  }
-  a {
-    color: gray;
-  }
+}
+footer p {
+  bottom: 0;
+  position: absolute;
+}
+footer a {
+  color: gray;
 }
 
 @media screen and (max-width: 1200px) {
   .main_photo {
     background-size: 125%;
     background-position: top;
-
   }
+
   .copy {
     padding-top: 50px;
   }
+
   #notice_break {
     display: none;
   }
 }
-
 @media screen and (max-width: 900px) {
   .main_photo {
     background-size: 100%;
     background-position: top;
     height: 300px;
   }
+
   .trans_box {
     margin-top: 50px;
   }
 }
-
 @media screen and (max-width: 700px) {
   .main_photo {
     background-size: 130%;
     height: 30%;
   }
+
   .trans_box {
     width: 200px;
     height: 153px;
     margin-top: 10px;
-    h1 {
-      font-size: 36px
-    }
   }
-  .copy {
-    p {
-      font-size: 20px;
-    }
+  .trans_box h1 {
+    font-size: 36px;
+  }
+
+  .copy p {
+    font-size: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-

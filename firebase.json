@@ -1,0 +1,9 @@
+{
+  "firebase": "dmalaw",
+  "public": "./",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
